@@ -296,7 +296,6 @@
 }
 .portfolio-gallery {
   float: left;
-  gap: 7px 7px;
 }
 .gallery-item:hover {
   border: 5px solid lightgreen;
