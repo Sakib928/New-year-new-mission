@@ -135,7 +135,9 @@
       </section>
       <section class="newsletter">
         <div class="newsletter-container">
-          <img src="images/Group 61.png" alt="" class="email-logo" />
+          <div class="email">
+            <img class="email-logo" src="images/Group 61.png" alt="" />
+          </div>
           <h1 class="subscribe">Subscribe Newsletter</h1>
           <p class="subscribe-description">
             Are you a fan of unique and thoughtful gifts? Do you love surprising
@@ -143,8 +145,14 @@
             special for you!Subscribe to our newsletter and be the first to know
             about our new arrivals, exclusive discounts, and special events.
           </p>
-          <label for="s-button" class="label-align"></label>
-          <button class="subscribe-button" id="s-button"></button>
+          <div class="subscribe">
+            <input
+              type="email"
+              class="email-input"
+              placeholder="user@gmail.com"
+            />
+            <button class="subscribe-button">Subscribe</button>
+          </div>
         </div>
       </section>
     </main>
