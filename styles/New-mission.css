@@ -396,3 +396,14 @@
 .website {
   display: flex;
 }
+.unsubscribe {
+  position: relative;
+  top: 188px;
+  left: 80px;
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  background: transparent;
+  border: none;
+}
