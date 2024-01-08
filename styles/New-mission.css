@@ -4,10 +4,27 @@
   padding: 0;
 }
 /* header related styles */
-.banner > .banner-container {
+/* banner section */
+.banner {
   text-align: center;
+  margin: 20px 20px;
   background-image: url("../images/banner-image.png");
+  border-radius: 16px;
   background-repeat: no-repeat;
   height: 600px;
-  background-size: cover;
+}
+
+.banner-container > .banner-greetings {
+  padding-top: 120px;
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 32px;
+  font-weight: 400;
+}
+.banner-container .banner-title {
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
 }
