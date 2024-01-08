@@ -107,8 +107,17 @@
   padding: 50px 70px 0 60px;
 }
 /* address section */
+.address {
+  margin: 20px 20px;
+  height: 400px;
+}
 .address-container {
   text-align: center;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
 }
 .text-color {
   color: #f00;
@@ -136,4 +145,65 @@
   border-radius: 5px;
   position: relative;
   left: 25px;
+  margin-bottom: 100px;
+}
+/* coming soon section */
+.coming-soon-container {
+  display: flex;
+  justify-content: space-around;
+}
+.new-offer {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+.new-offer-time {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+.offer-description {
+  color: rgba(7, 2, 17, 0.6);
+  max-width: 300px;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+}
+.column-2 {
+  border: 15px solid red;
+  border-radius: 300px;
+  position: relative;
+  bottom: 50px;
+}
+.fireworks-png {
+  width: 340px;
+  height: 340px;
+  border: 45px solid white;
+  border-radius: 50%;
+}
+.column-3 {
+  text-align: left;
+  max-width: 250px;
+}
+.year {
+  color: #f00;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+}
+.new-year-motto {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  margin-bottom: 20px;
+}
+.new-year-png {
+  width: 140px;
+  height: 140px;
 }
