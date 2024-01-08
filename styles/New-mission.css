@@ -12,6 +12,7 @@
   border-radius: 16px;
   background-repeat: no-repeat;
   height: 600px;
+  margin-bottom: 120px;
 }
 
 .banner-container > .banner-greetings {
@@ -27,4 +28,33 @@
   font-size: 72px;
   font-style: normal;
   font-weight: 900;
+}
+/* discount section */
+.discount-container {
+  text-align: center;
+}
+.discount-rate {
+  color: #f00;
+  font-family: Inter;
+  font-size: 75px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+.discount-motto {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+.discount-categories {
+  color: #070211;
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 45px;
+}
+.discount-image {
+  width: 700px;
+  height: 450px;
 }
