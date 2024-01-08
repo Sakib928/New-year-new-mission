@@ -151,6 +151,7 @@
 .coming-soon-container {
   display: flex;
   justify-content: space-around;
+  margin-bottom: 50px;
 }
 .new-offer {
   color: #f00;
@@ -236,6 +237,34 @@
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
-  margin: 0 150px 50px;
+  margin: 0 150px 100px;
 }
 /* holiday-banner section */
+.girl-percentage {
+  text-align: right;
+}
+.percentage {
+  position: relative;
+  top: 50px;
+  left: 100px;
+}
+.girl {
+  float: right;
+  position: relative;
+  right: 12px;
+}
+.box-image {
+  position: relative;
+  bottom: 152px;
+  background-image: url("../images/Rectangle\ 2.png");
+  background-blend-mode: color-dodge;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+.box {
+  position: relative;
+  left: 50px;
+  bottom: 50px;
+  height: 500px;
+  width: 500px;
+}
