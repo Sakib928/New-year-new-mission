@@ -1,0 +1,13 @@
+/* full body style */
+* {
+  margin: 0;
+  padding: 0;
+}
+/* header related styles */
+.banner > .banner-container {
+  text-align: center;
+  background-image: url("/images/Banner\ Image.png");
+  background-repeat: no-repeat;
+  height: 600px;
+  background-size: cover;
+}
