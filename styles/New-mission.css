@@ -8,7 +8,8 @@
 .banner {
   text-align: center;
   margin: 20px 20px;
-  background-image: url("../images/banner-image.png");
+  background: url("../images/Banner\ Image.png"),
+    linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
   border-radius: 16px;
   background-repeat: no-repeat;
   height: 600px;
@@ -17,13 +18,13 @@
 
 .banner-container > .banner-greetings {
   padding-top: 120px;
-  color: #fff;
+  color: #f9f6ee;
   font-family: Merriweather;
   font-size: 32px;
   font-weight: 400;
 }
 .banner-container .banner-title {
-  color: #fff;
+  color: #f9f6ee;
   font-family: Merriweather;
   font-size: 72px;
   font-style: normal;
@@ -57,5 +58,49 @@
 .discount-image {
   width: 700px;
   height: 450px;
+  margin-bottom: 50px;
 }
 /* welcome to midnight section */
+.welcome-section {
+  margin: 20px 20px;
+}
+.welcome-container {
+  display: flex;
+  justify-content: space-between;
+  background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("../images/Vectorrr.png");
+  height: 550px;
+  border-radius: 10px;
+}
+.welcome-section .welcome {
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 64px;
+  font-weight: 900;
+  margin-bottom: 15px;
+}
+.welcome-description {
+  max-width: 600px;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+.text-column {
+  padding: 120px 0px 120px 120px;
+}
+.welcome-button {
+  position: relative;
+  left: 15px;
+  color: #fff;
+  border: none;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  background: transparent;
+}
+.logo-column {
+  padding: 50px 70px 0 60px;
+}
