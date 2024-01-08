@@ -6,7 +6,7 @@
 /* header related styles */
 .banner > .banner-container {
   text-align: center;
-  background-image: url("/images/Banner\ Image.png");
+  background-image: url("../images/banner-image.png");
   background-repeat: no-repeat;
   height: 600px;
   background-size: cover;
