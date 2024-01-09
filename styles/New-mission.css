@@ -260,7 +260,7 @@
   bottom: 152px;
   background-image: url("../images/Rectangle\ 2.png");
   background-blend-mode: color-dodge;
-  background-repeat: no-repeat;
+  background-repeat: repeat-x;
   background-position: bottom;
 }
 .box {
@@ -295,6 +295,8 @@
   font-weight: 400;
   width: 750px;
   margin-bottom: 20px;
+  position: relative;
+  right: 275px;
 }
 .portfolio-gallery {
   float: left;
